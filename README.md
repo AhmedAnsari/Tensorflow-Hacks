@@ -2,9 +2,10 @@
 
 # usage:
 import immutable_scatter from scatter_for_immutable_tensor.py
-just invoke immutable_scatter(args) instead of usual tensorflow's scatter_nd(args) in your code.
-all arguments are same as scatter_nd(args) provided by tensorflow
-#examples with usage
+Just invoke immutable_scatter(args) instead of usual tensorflow's scatter_nd(args) in your code.
+All arguments are same as scatter_nd(args) provided by tensorflow
+
+# examples with usage
 # example 1
 
 import numpy as np
