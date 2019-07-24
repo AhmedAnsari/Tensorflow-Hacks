@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://example.com/2019/07/24/SSRP.html</loc>
+      <loc>https://ahmedansari.github.io/Tensorflow-Hacks//2019/07/24/SSRP.html</loc>
       
         <lastmod>2019-07-24T00:00:00+05:30</lastmod>
       
@@ -11,7 +11,7 @@
     </url>
   
     <url>
-      <loc>http://example.com/2019/07/24/CIPITR.html</loc>
+      <loc>https://ahmedansari.github.io/Tensorflow-Hacks//2019/07/24/CIPITR.html</loc>
       
         <lastmod>2019-07-24T00:00:00+05:30</lastmod>
       
@@ -26,7 +26,7 @@
   
     
       <url>
-        <loc>http://example.com/about.html</loc>
+        <loc>https://ahmedansari.github.io/Tensorflow-Hacks//about.html</loc>
         <lastmod>2014-09-07T16:31:30+05:30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>

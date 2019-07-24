@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: http://example.com/sitemap.xml
+Sitemap: https://ahmedansari.github.io/Tensorflow-Hacks//sitemap.xml
