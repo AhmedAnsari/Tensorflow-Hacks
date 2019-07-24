@@ -1,56 +1,36 @@
-# Set theme
-remote_theme: daviddarnes/alembic
+##The website title
+name: CIPITR
+##Markdown processor
+markdown: kramdown
+##syntax highlighter. change it to pygments
+highlighter: pygments
 
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
-- jekyll-remote-theme
-
-# Site settings
-url: 'https://mydomain.com'
-baseurl: ''
-title: 'My website'
-description: 'This is my new website'
-permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
-
-# Pagination
+##define base_url for valid usage in sitemap.xml and robots.txt
+base_url: http://example.com
+sass:
+  sass_dir: _sass
+  style: :compressed
 paginate: 5
-paginate_path: blog/page:num
+paginate_path: "page:num"
+##The website description (to be used in meta tags)
+description: Testing first github io website
+##Some frequently used keywords on your website
+keywords: some, relevant, keywords, for, usage, in metatags
 
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
+##define this for disqus comment support
+#disqus: forumname
 
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
+##set this to enable google analytics
+#ga_id: analyticsID
+#ga_domain: analyticsDomain
 
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+##Some commonly used links
+links:
+  email: cipitr.ibm@gmail.com
+  github: cipitr.ibm@gmail.com
+
+##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
+about_image: placeholder.jpg
+##comment this if you want full width posts with no sidebar
+sidebar: on
+plugins: [jekyll-paginate]

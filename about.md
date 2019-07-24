@@ -1,6 +1,10 @@
 ---
 layout: page
-title: About this website
+title: About
+sitemap:
+    priority: 1.0
+    changefreq: weekly
+    lastmod: 2014-09-07T16:31:30+05:30
 ---
-
-I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
+# About
+This work was done at IBM Research Labs Pvt. Ltd
